@@ -1,0 +1,38 @@
+.container {
+    font-family: sans-serif;
+    height: 100vh;
+    display: grid;
+    grid: 
+    "cabecalho cabecalho" 5%
+    "nav conteudo" 90%
+    "rodape rodape " 5%
+    / 25% 75%
+    ;
+    gap: 5px;
+}
+
+header {
+    color: white;
+    background-color: red;
+    grid-area: cabecalho;
+}
+
+nav {
+    color: white;
+    background-color: lightblue;
+    grid-area: nav;
+}
+
+main {
+    color: white;
+    background-color: rgb(184, 15, 184);
+    grid-area: conteudo;
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(141, 226, 14);
+    grid-area: rodape;
+}
